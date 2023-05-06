@@ -1,12 +1,15 @@
-import {Link, Navlink} from 'react-router-dom'
-
+import { useRef } from 'react';
 import './navbar.css'
-
 import {FaBars, Fabars, FaTimes} from 'react-icons/fa';
 
 
 
 const Navbar = () => {
+    const navRef = useRef();
+
+    const showNavbar = () =>{
+        navRef.current.classList.toggle('responsive_nav');
+    }
   return (
   <header>
     <h3>Logo</h3>
@@ -15,13 +18,13 @@ const Navbar = () => {
         <a href="#">About</a>
         <a href="#">Mision</a>
         <a href="#">Contact</a>
-        <button>
+        <button className='nav-btn nav-close-btn' onClick={showNavbar}>
             <FaTimes/>
         </button>
     </nav>
-    <button>
+    <button className='nav-btn ' onClick={showNavbar}>
             <FaBars/>
-        </button>
+    </button>
   </header>
   )
 }
