@@ -1,5 +1,8 @@
 .bg-banner-bg{
-    background-image: url(../public/bannerBg.jpg);
+    /* background-image: url(../public/bannerBg.jpg); */
     height: 100%;
     width: 100%;
+    margin: 0 auto;
+    background: rgb(6,53,147);
+    background: radial-gradient(circle, rgba(6,53,147,1) 0%, rgba(79,67,247,1) 100%);
 }

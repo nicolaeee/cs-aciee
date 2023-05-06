@@ -63,6 +63,9 @@ header .nav-btn{
 }
 
 @media only screen and (max-width: 955px){
+    nav{
+        padding: 0;
+    }
 
     header .nav-btn{
         visibility: visible;
@@ -83,6 +86,7 @@ header .nav-btn{
         transition: 1s;
         transform: translate(-100vh);
         font-size: 24px;
+        background-color: #25167c;
     }
 
     header .responsive_nav{
