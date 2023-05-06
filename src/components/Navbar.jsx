@@ -21,11 +21,12 @@ function Navbar() {
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
             <FaTimes/>
         </button>
+        <button className='nav-contact'>Alaturate</button>
     </nav>
     <button className='nav-btn ' onClick={showNavbar}>
             <FaBars/>
     </button>
-    <button>Alaturate</button>
+
   </header>
   )
 }
