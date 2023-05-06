@@ -4,7 +4,7 @@ import {FaBars, Fabars, FaTimes} from 'react-icons/fa';
 
 
 
-const Navbar = () => {
+function Navbar() {
     const navRef = useRef();
 
     const showNavbar = () =>{
@@ -13,10 +13,10 @@ const Navbar = () => {
   return (
   <header>
     <h3>Logo</h3>
-    <nav>
+    <nav ref={navRef}>
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">Mision</a>
+        <a href="#">Misiune</a>
         <a href="#">Contact</a>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
             <FaTimes/>
