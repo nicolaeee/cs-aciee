@@ -1,6 +1,6 @@
 import './notFound.css'
 
-function NotFound() {
+ const NotFound = () => {
   return (
     <div>NotFound</div>
   )

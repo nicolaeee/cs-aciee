@@ -1,6 +1,6 @@
 import './mision.css'
 
-function Mision() {
+const Mision = () => {
   return (
     <div>Mision</div>
   )
