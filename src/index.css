@@ -1,0 +1,5 @@
+.bg-banner-bg{
+    background-image: url(../public/bannerBg.jpg);
+    height: 100%;
+    width: 100%;
+}
