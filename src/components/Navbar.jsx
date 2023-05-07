@@ -12,7 +12,11 @@ function Navbar() {
     }
   return (
   <header>
-    <h3>Logo</h3>
+    <div className="header__logo">
+    <a href="#" className="logo__title"> CS-FACIEE</a>
+      <p className="logo__descrption">Knowledge and fun</p>
+    <img src="" alt="" />
+    </div>
     <nav ref={navRef}>
         <a href="#">Principal</a>
         <a href="#">Despre</a>

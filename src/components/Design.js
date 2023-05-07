@@ -23,9 +23,9 @@ const Design = () => {
     options={{
       fullScreen: false,
       background: {
-        // color: {
-        //   value: "#0d47a1",
-        // },
+        color: {
+         value: "#0d47a1",
+         },
       },
       fpsLimit: 60,
       interactivity: {

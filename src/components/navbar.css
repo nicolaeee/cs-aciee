@@ -28,16 +28,17 @@ header{
     color: var(--textColor);
 }
 nav{
-    padding: 3px 0px 0px 140px;
+    padding: 3px 0px 0px 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 24px;
 }
 nav a{
-    margin: 0 5rem;
+    margin: 0 3rem;
     color: var(--textColor);
     text-decoration: none;
+    transition: 0.3s all ease-in-out;
 }
 
 nav a:hover{
@@ -58,8 +59,33 @@ header .nav-btn{
 
 .nav-contact{
     padding: 2px 20px;
-    border-radius: 10px;
+    border-radius: 58px;
+    background-color: var(--mainColorLight);
+    font-size: 24px;
+    color: var(--textColor);
+    list-style: none;
+    border: none;
+    transition: 0.3s all ease-in-out;
 
+}
+
+.nav-contact:hover{
+    background-color: #4a647d;
+
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.logo__title{
+    text-decoration: none;
+    color: var(--textColor);
+    font-size: 26px;
 }
 
 @media only screen and (max-width: 955px){
