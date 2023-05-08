@@ -3,20 +3,16 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 const Design = () => {
-    const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
-        await loadFull(engine);
-    }, []);
+  const particlesInit = useCallback(async (engine) => {
+    await loadFull(engine);
+  }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
+  const particlesLoaded = useCallback(async (container) => {
+    // do something here if needed
+  }, []);
   return (
     <div><Particles
-    className="w-full h-screen"
+    className="absolute top-0 left-0 w-full h-full z-0"
     id="tsparticles"
     init={particlesInit}
     loaded={particlesLoaded}
