@@ -11,3 +11,35 @@
     padding: 20px;
     margin: 20px;
   }
+
+
+  .home-info{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+  }
+
+  .home__wrapper {
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .home__header{
+    width: 370px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+  }
