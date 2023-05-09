@@ -24,19 +24,19 @@ const Background = () => {
             options={{
               "particles": {
                 "number": {
-                  "value": 38,
+                  "value": 80,
                   "density": {
                     "enable": true,
                     "value_area": 800
                   }
                 },
                 "color": {
-                  "value": "#e5e5e5"
+                  "value": "#ffffff"
                 },
                 "shape": {
                   "type": "circle",
                   "stroke": {
-                    "width": 1,
+                    "width": 0,
                     "color": "#000000"
                   },
                   "polygon": {
@@ -77,7 +77,7 @@ const Background = () => {
                 },
                 "move": {
                   "enable": true,
-                  "speed": 3.201152414869355,
+                  "speed": 6,
                   "direction": "none",
                   "random": false,
                   "straight": false,
@@ -115,7 +115,7 @@ const Background = () => {
                     "size": 40,
                     "duration": 2,
                     "opacity": 8,
-                    "speed": 3
+                    "speed": 0.5
                   },
                   "repulse": {
                     "distance": 200,
