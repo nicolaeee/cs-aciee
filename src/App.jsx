@@ -2,22 +2,25 @@ import React from 'react'
 import './index.css'
 import Navbar from './components/NavbarComponent/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Design from './components/ParticlesComponent/Design'
+import Background from './components/ParticlesComponent/Background'
+import HomePage from './pages/HomePage/HomePage'
+import About from './pages/AboutPage/AboutPage'
 
 function App() {
   return (
    <>
    <Router>
+    <Background/>
     <Navbar/>
-    <Design/>
     <Routes>
-    <Route path='/'exact/>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/about' element={<About/>} />
     </Routes>
    </Router>
-
    </>
 
   )
 }
 
 export default App
+
