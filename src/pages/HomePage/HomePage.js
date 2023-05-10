@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomePage.css";
 import { Button } from "../../components/ButtonComponent/Button";
+import Carousel from "../../components/CarouselComponent/Carousel";
 function HomePage() {
   return (
     <>
@@ -24,7 +25,7 @@ function HomePage() {
         <div className="wrapper">
           <div className="home__wrapper">
             <div className="home-info-coursel">
-
+              <Carousel/>
             </div>
           </div>
         </div>
