@@ -17,6 +17,11 @@
     padding: 0px 0px 0px 0px;
     margin: 51px 35px 84px 53px;
     width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-direction: column;
   }
 
   .home__wrapper {
@@ -42,6 +47,8 @@
     width: 549px;
     padding: 0px 0px 27px 0px;
     margin: 35px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
   }
 
   .home-contact{
@@ -60,4 +67,13 @@
 
   span{
     color:#422881 ;
+    transition: 0.5s ease-in-out all;
+  }
+
+  .home__header:hover{
+    color:#422881 ;
+  }
+
+  span:hover{
+    color: #242424;
   }
