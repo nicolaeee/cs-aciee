@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomePage.css";
 import { Button } from "../../components/ButtonComponent/Button";
-
 function HomePage() {
   return (
+    <>
     <section className="home">
       <div className="wrapper">
         <div className="home__wrapper">
@@ -20,6 +20,18 @@ function HomePage() {
         </div>
       </div>
     </section>
+    <section className="home-section-2">
+        <div className="wrapper">
+          <div className="home__wrapper">
+            <div className="home-info-coursel">
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </>
+
   );
 }
 
