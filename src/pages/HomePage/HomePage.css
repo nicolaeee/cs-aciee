@@ -18,7 +18,7 @@
     margin: 51px 35px 84px 53px;
     width: 500px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 1.5rem;
     flex-direction: column;
@@ -54,6 +54,7 @@
   .home-contact{
     padding: 0px 0px 0px 0px;
     margin: 0px 138px 0px 0px;
+    cursor: pointer;
   }
 
   .home__description{
