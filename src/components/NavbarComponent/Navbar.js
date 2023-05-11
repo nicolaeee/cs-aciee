@@ -53,12 +53,12 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                    <Link to='https://discord.com/invite/XEk97XFVXm' className='nav-links-mobile' onClick={closeMobileMenu}>
                         Alature
                     </Link>
                 </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Alaturate</Button>}
+            {button && <Button buttonStyle='btn--outline'> Alaturate</Button>}
         </div>
     </nav>
   </>

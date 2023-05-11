@@ -1,9 +1,12 @@
 import React from 'react';
 import './About.css'
 import { Button } from '../../components/ButtonComponent/Button';
+import Footer from '../../components/FooterComponent/Footer';
 function AboutPage() {
   return (
-    <section className="home">
+    <>
+     <main>
+      <section className="home">
     <div className="wrapper">
       <div className="home__wrapper">
         <div className="home-info">
@@ -13,12 +16,16 @@ function AboutPage() {
             Înscrie-te acum!
           </Button>
         </div>
-        <div className="home-contact">
-          <img src="../images/about.svg"/>
+        <div className="home-contact__about">
+          <img className='img-about' src="../images/about.svg"/>
         </div>
       </div>
     </div>
   </section>
+    </main>
+    <Footer/>
+    </>
+
   );
 }
 
