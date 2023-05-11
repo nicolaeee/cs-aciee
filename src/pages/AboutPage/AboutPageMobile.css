@@ -1,0 +1,99 @@
+@media (max-width: 750px){
+
+
+
+
+    .home__header{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.4rem;
+        line-height: 50px;
+        width: 349px;
+        padding: 0px 0px 27px 0px;
+        margin: 0px 0px 0px 0px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out all;
+      }
+
+      .home__description{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        width: 289px;
+        padding-bottom: 25px;
+      }
+
+      .home-info{
+        padding: 0px 0px 0px 0px;
+        margin: 48px 0px 136px 18px;
+        width: 339px;
+        height: 184px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1.5rem;
+        flex-direction: column;
+      }
+
+      .home-contact{
+        padding: 0px 0px 0px 0px;
+        margin: 0px 8px 0px 0px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out all;
+      }
+
+
+      .home__header-two{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 50px;
+        padding: 0px 0px 27px 0px;
+        margin: 35px 0px 0px 0px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out all;
+        text-align: center;
+      }
+      .home-slider{
+        width: 300px;
+        padding: 0px 0px 0px 0px;
+        margin: 35px 39px 142px 33px;
+      }
+      .home__description-two{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px;
+      }
+    .home-slider{
+        width: 300px;
+    }
+    .footer__social{
+        width: 250px;
+        margin: 0px 0px 0px 85px;
+    }
+
+    .navbar {
+        background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+       width: 100%;
+      }
+      .home__header__about{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 50px;
+        width: 249px;
+        padding: 0px 0px 27px 0px;
+        margin: 0px 0px 0px 0px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out all;
+      }
+    }

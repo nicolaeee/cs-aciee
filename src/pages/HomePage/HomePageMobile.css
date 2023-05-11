@@ -2,7 +2,7 @@
 
 .home__wrapper{
     flex-direction: column;
-    margin: 80px 0px 0px 0px;
+    margin: 304px 0px 0px 0px;
     gap: 245px;
 
 }
@@ -54,11 +54,12 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 183px;
+    margin-top: 322px;
   }
 
   .home__wrapper__two{
     padding: 0px 0px 0px 0px;
+    margin: 304px 0px 0px 0px;
     width: 339px;
   }
   .home__header-two{

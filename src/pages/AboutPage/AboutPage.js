@@ -1,5 +1,6 @@
 import React from 'react';
-import './About.css'
+import './AboutPage.css'
+import './AboutPageMobile.css'
 import { Button } from '../../components/ButtonComponent/Button';
 import Footer from '../../components/FooterComponent/Footer';
 function AboutPage() {
