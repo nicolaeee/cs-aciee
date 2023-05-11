@@ -2,7 +2,8 @@
 
 .home__wrapper{
     flex-direction: column;
-    margin: 0px 0px 0px 0px;
+    margin: 124px 0px 0px 0px;
+    gap: 125px;
 
 }
 
@@ -13,7 +14,7 @@
     line-height: 50px;
     width: 349px;
     padding: 0px 0px 27px 0px;
-    margin: 35px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     cursor: pointer;
     transition: 0.5s ease-in-out all;
   }
@@ -29,8 +30,9 @@
 
   .home-info{
     padding: 0px 0px 0px 0px;
-    margin: 104px 0px 113px 30px;
-    width: 500px;
+    margin: 48px 0px 113px 30px;
+    width: 350px;
+    height: 184px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
