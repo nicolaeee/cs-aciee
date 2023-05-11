@@ -27,11 +27,13 @@ function HomePage() {
     </section>
     <section className="home-section-two">
       <div className="wrapper">
-          <h1 className="home__header-two">Ce <span>reprezentam </span>noi?</h1>
+        <div className="home__wrapper__two">
+        <h1 className="home__header-two">Ce <span>reprezentam </span>noi?</h1>
       <div className="home-slider">
         <p className="home__description-two">Studenti,<span>prieteni</span> , si pur si simplu <span>oameni</span>  pasionati de accelasi <span>vis</span> </p>
       <Carousel/>
       </div>
+        </div>
       </div>
       </section>
     </main>

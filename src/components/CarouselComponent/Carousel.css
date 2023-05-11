@@ -5,7 +5,7 @@
   .slick-slider {
     margin: 94px 0px 0px 0px;
   }
-.home-slider{
+.home__wrapper__two{
   background: rgba(255, 255, 255, 0.26);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -20,7 +20,7 @@
   height: 100%;
 }
 
-.home-slider:hover{
+.home__wrapper__two:hover{
   background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
