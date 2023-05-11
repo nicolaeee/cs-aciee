@@ -1,3 +1,20 @@
 .slick-slide img {
     border-radius: 10px;
   }
+
+  .slick-slider {
+    margin: 94px 0px 0px 0px;
+  }
+.home-slider{
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0px 0px 0px 0px;
+
+  height: 500px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out all;
+}

@@ -21,7 +21,7 @@
 
   .home-info{
     padding: 0px 0px 0px 0px;
-    margin: 51px 35px 84px 53px;
+    margin: 104px 58px 126px 31px;
     width: 500px;
     display: flex;
     align-items: flex-start;
@@ -109,8 +109,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
   }
 
   .home-slider{
     max-width: 1250px;
+  }
+
+  .home__header-two{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 50px;
+    width: 549px;
+    padding: 0px 0px 27px 0px;
+    margin: 35px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
   }

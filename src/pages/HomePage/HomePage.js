@@ -25,6 +25,7 @@ function HomePage() {
     </section>
     <section className="home-section-two">
       <div className="wrapper">
+      <h1 className="home__header-two">Ce <span>reprezentam </span>noi?</h1>
       <div className="home-slider">
       <Carousel/>
       </div>
