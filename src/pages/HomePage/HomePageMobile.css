@@ -7,6 +7,7 @@
 
 }
 
+
 .home__header{
     font-style: normal;
     font-weight: 700;
@@ -31,7 +32,7 @@
   .home-info{
     padding: 0px 0px 0px 0px;
     margin: 48px 0px 136px 18px;
-    width: 300px;
+    width: 339px;
     height: 184px;
     display: flex;
     align-items: flex-start;
@@ -58,6 +59,7 @@
 
   .home__wrapper__two{
     padding: 0px 0px 0px 0px;
+    width: 339px;
   }
   .home__header-two{
     font-style: normal;
