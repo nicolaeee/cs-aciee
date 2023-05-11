@@ -1,7 +1,5 @@
 @media (max-width: 750px){
-    *{
-        overflow-x: hidden;
-    }
+
 .home__wrapper{
     flex-direction: column;
     margin: 0px 0px 0px 0px;
@@ -31,7 +29,7 @@
 
   .home-info{
     padding: 0px 0px 0px 0px;
-    margin: 104px 0px 113px 129px;
+    margin: 104px 0px 113px 30px;
     width: 500px;
     display: flex;
     align-items: flex-start;
