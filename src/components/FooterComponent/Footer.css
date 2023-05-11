@@ -1,0 +1,29 @@
+footer{
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.footer__header{
+    color: white;
+    text-align: center;
+    transition: 0.5s ease-in-out all;
+}
+
+.footer__header:hover{
+    color:#422881 ;
+}
+
+.footer__social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__social a {
+    font-size: 2em;
+    transition: 0.5s ease-in-out all;
+  }
+
+  .footer__social a:hover i {
+    transform: scale(1.2);
+  }
+

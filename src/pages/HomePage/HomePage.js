@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import { Button } from "../../components/ButtonComponent/Button";
 import Carousel from "../../components/CarouselComponent/Carousel";
+import Footer from "../../components/FooterComponent/Footer";
 
 function HomePage() {
   return (
@@ -33,13 +34,10 @@ function HomePage() {
       </div>
       </section>
     </main>
-    <footer>
-
-    </footer>
+    <Footer/>
     </>
 
   );
 }
-
 
 export default HomePage;
