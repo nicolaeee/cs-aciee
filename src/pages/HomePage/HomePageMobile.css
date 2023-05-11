@@ -1,0 +1,29 @@
+@media (max-width: 750px){
+.home__wrapper{
+    flex-direction: column;
+
+
+}
+
+.home__header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9rem;
+    line-height: 50px;
+    width: 349px;
+    padding: 0px 0px 27px 0px;
+    margin: 35px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
+  }
+
+  .home__description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    width: 325.44px;
+    padding-bottom: 25px;
+  }
+
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import "./HomePageMobile.css";
 import { Button } from "../../components/ButtonComponent/Button";
 import Carousel from "../../components/CarouselComponent/Carousel";
 import Footer from "../../components/FooterComponent/Footer";
