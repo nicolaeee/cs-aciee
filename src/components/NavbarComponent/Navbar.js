@@ -46,6 +46,7 @@ function Navbar() {
                         Despre
                     </Link>
                 </li>
+
                 <li className='nav-item'>
                     <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                         Contact
