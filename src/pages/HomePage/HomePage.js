@@ -6,6 +6,7 @@ import Carousel from "../../components/CarouselComponent/Carousel";
 function HomePage() {
   return (
     <>
+    <main>
     <section className="home">
       <div className="wrapper">
         <div className="home__wrapper">
@@ -22,9 +23,15 @@ function HomePage() {
         </div>
       </div>
     </section>
-    <section className="home-section-2">
-        <Carousel/>
+    <section className="home-section-two">
+      <div className="wrapper">
+      <div className="home-slider">
+      <Carousel/>
+      </div>
+      </div>
       </section>
+
+    </main>
 
     </>
 
