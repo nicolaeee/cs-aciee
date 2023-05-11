@@ -32,9 +32,10 @@ function HomePage() {
       </div>
       </div>
       </section>
-
     </main>
+    <footer>
 
+    </footer>
     </>
 
   );
