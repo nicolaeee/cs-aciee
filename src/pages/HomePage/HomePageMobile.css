@@ -102,4 +102,15 @@
     z-index: 999;
    width: 100%;
   }
+  .home__header__about{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 50px;
+    width: 249px;
+    padding: 0px 0px 27px 0px;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
+  }
 }
