@@ -1,7 +1,10 @@
 @media (max-width: 750px){
+    *{
+        overflow-x: hidden;
+    }
 .home__wrapper{
     flex-direction: column;
-
+    margin: 0px 0px 0px 0px;
 
 }
 
@@ -24,6 +27,24 @@
     line-height: 35px;
     width: 325.44px;
     padding-bottom: 25px;
+  }
+
+  .home-info{
+    padding: 0px 0px 0px 0px;
+    margin: 104px 0px 113px 129px;
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .home-contact{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 8px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
   }
 
 }
