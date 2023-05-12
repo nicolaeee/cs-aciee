@@ -3,17 +3,6 @@
 
 
 
-    .home__header{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 3.4rem;
-        line-height: 50px;
-        width: 349px;
-        padding: 0px 0px 27px 0px;
-        margin: 0px 0px 0px 0px;
-        cursor: pointer;
-        transition: 0.5s ease-in-out all;
-      }
 
       .home__description{
         font-style: normal;
@@ -44,11 +33,7 @@
         transition: 0.5s ease-in-out all;
         text-align: center;
       }
-      .home-slider{
-        width: 300px;
-        padding: 0px 0px 0px 0px;
-        margin: 35px 39px 142px 33px;
-      }
+
       .home__description-two{
         text-align: center;
         font-size: 24px;
