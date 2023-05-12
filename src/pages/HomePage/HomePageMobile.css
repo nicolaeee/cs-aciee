@@ -31,7 +31,7 @@
 
   .home-info{
     padding: 0px 0px 0px 0px;
-    margin: 48px 0px 136px 0px;
+    margin: 48px 19px 136px 31px;
     width: 300px;
     height: 184px;
     display: flex;
@@ -76,7 +76,7 @@
   .home-slider{
     width: 300px;
     padding: 0px 0px 0px 0px;
-    margin: 35px 39px 142px 15px;
+    margin: 35px 22px 142px 24px;
   }
   .home__description-two{
     text-align: center;
