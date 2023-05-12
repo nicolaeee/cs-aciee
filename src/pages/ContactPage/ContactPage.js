@@ -1,14 +1,14 @@
 import React from 'react'
 import './ContactPage.css'
 import { Button } from '../../components/ButtonComponent/Button'
-import Footer from '../../components/FooterComponent/Footer'
+
 function ContactPage() {
   return (
     <>
     <main>
      <section className="home">
    <div className="wrapper">
-     <div className="home__wrapper">
+     <div className="home__wrapper-contact">
        <div className="home-info">
        <h1 className="home__header__about">Suntem o <span> comunitate </span>dornica de <spap>noi</spap> cunostinte</h1>
        <div className="footer__social-contact">
@@ -20,7 +20,6 @@ function ContactPage() {
    </div>
  </section>
    </main>
-   <Footer/>
    </>
   )
 }

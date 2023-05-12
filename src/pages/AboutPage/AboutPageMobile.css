@@ -24,17 +24,6 @@
         padding-bottom: 25px;
       }
 
-      .home-info{
-        padding: 0px 0px 0px 0px;
-        margin: 48px 0px 136px 18px;
-        width: 339px;
-        height: 184px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 1.5rem;
-        flex-direction: column;
-      }
 
       .home-contact{
         padding: 0px 0px 0px 0px;

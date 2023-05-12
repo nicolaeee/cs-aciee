@@ -1,5 +1,13 @@
 .home__header__about{
-    letter-spacing: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 50px;
+    width: 549px;
+    padding: 0px 0px 27px 0px;
+    margin: 35px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
 }
 
 .home-contact__about{
