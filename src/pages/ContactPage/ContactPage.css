@@ -1,0 +1,17 @@
+
+.footer__social-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 57px 0px 0px 66px;
+    gap: 73px;
+}
+
+.footer__social-contact a {
+    font-size: 4em;
+    transition: 0.5s ease-in-out all;
+  }
+
+  .footer__social-contact a:hover i {
+    transform: scale(1.2);
+  }
