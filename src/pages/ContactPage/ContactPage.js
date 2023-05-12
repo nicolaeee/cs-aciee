@@ -1,5 +1,6 @@
 import React from 'react'
 import './ContactPage.css'
+import './ContactPageMobile.css'
 import { Button } from '../../components/ButtonComponent/Button'
 
 function ContactPage() {

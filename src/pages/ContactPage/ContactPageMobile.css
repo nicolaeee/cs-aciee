@@ -1,0 +1,9 @@
+@media (max-width: 720px){
+    .footer__social-contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 116px 0px 0px 52px;
+        gap: 73px;
+    }
+}
